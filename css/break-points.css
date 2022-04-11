@@ -1,0 +1,108 @@
+
+/* Mobile Firs*/
+
+@media (max-width: 1024px) {
+
+	#landing {
+		background-image: url(../img/Desktop.png);
+	}
+    footer {
+        padding: 64px;
+    }
+    .services nav {
+		width: 30%;
+		height: auto;
+    }
+	.services article {
+		width: 70S%;
+		height: auto;
+	}	
+}
+
+/* Tablet */
+
+@media (max-width: 768px){
+
+    #logo {
+		padding: 10px 0px;
+		position: center;
+}
+
+    #landing {
+	background-image: url(../img/Tablet.png);
+}
+
+.menu li a {
+    padding: 8px;
+}
+
+	[type="text"], [type="email"], [type="phone"],textarea {
+		width: 100%;
+}
+	[type="submit"]{
+		width: 100%;
+	}
+	#landing h1 {
+		font-size: 2rem;
+}   
+    .services nav {
+        width: 30%;
+        height: auto;
+}
+    .services article {
+        width: 70%;
+        height: auto;
+}	
+	.form_2 {
+		padding: 16px 0; 
+	}
+	footer {
+		display: block;
+		padding: 32px;
+	}
+
+	footer div {
+		border-bottom: solid .5px #222222;
+	}
+
+    div .filtro {
+        max-width: 47%;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 430px){
+	#landing {
+		background-image: url(../img/Phone.png);
+	}
+
+	.menu li {
+		display: none;
+}
+	.menu #lang_selector {
+		display: inline-block;
+		margin-right: -45px;
+}
+
+    .products article {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+    
+    .products article div {
+        margin: auto;
+        width: 80%;
+    }
+    div .filtro {
+        max-width: 97%;
+    }
+    .services nav {
+		width: 100%;
+		height: auto;
+}
+	.services article {
+		width: 100%;
+		height: auto;
+	}	
+}

@@ -1,0 +1,45 @@
+html {
+    font-family: IBM Plax Sans;
+    font-size: 62,5%;
+}
+
+.products .intro {
+	background-color: #ebebeb;
+	border-bottom: .5px solid #cbcbcb;
+}
+
+.products .h1 {
+	padding: 16px 32px;
+	font-size: 2rem;
+}
+
+.short-text {
+    font-size: 12px;
+    padding: 16px 32px;
+    background-color: #f1f1f1;
+}
+
+.products article {
+    margin-top: 64px;
+    margin-bottom: 64px;
+    display: grid;
+}
+
+.products article div {
+    margin: auto;
+    width: 80%;
+}
+
+div .filtro {
+    max-width: 31%;
+}
+
+.filtro {
+    border-radius: 4px;
+    margin: 8px;
+    filter: grayscale(90%);
+}
+
+.filtro:hover {
+    filter: grayscale(10%);
+}
