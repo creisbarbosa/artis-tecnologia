@@ -1,4 +1,4 @@
-# artis-tecnologia
+# Artis TEcnologia
 Company´s website
 
 # GIT
@@ -20,6 +20,8 @@ Arquivo B | Versão 1 | Versãp 2
 ## Comits
 Informação de alteração
 - após testado todo o seu código
+- git add
+- git commit -m "mensagem"
 
 ## Git Flow
 Fluxo do Git
