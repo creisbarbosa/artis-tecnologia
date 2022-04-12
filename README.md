@@ -22,6 +22,7 @@ Informação de alteração
 - após testado todo o seu código
 - git add
 - git commit -m "mensagem"
+- git push (enviar alterações para o repositório)
 
 ## Git Flow
 Fluxo do Git
