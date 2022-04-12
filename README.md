@@ -43,6 +43,18 @@ Ramificações do código / versões paralelas
 -git checkou -b (cria uma nova branch)
 -git chechou (muda de branch)
 
-## Mesclar Branches
+### Mesclar Branches
 
-- $ git merge
+- $ git merge  main
+Voce pode precisar resolver conflitos manualmente
+
+### Pull Request
+
+Mescla Branches no repositório
+Permite code review
+O repositório resolve conflitos automaticamente
+
+### Git Flow
+
+- Config = git flow init
+- git flow featire start {nome-da-feature}
