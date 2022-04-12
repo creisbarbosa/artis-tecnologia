@@ -39,3 +39,10 @@ Ramificações do código / versões paralelas
 - $ git branch
 - $ git checkout -b dev
 - cria uma cópia da main para branch dev
+
+-git checkou -b (cria uma nova branch)
+-git chechou (muda de branch)
+
+## Mesclar Branches
+
+- $ git merge
