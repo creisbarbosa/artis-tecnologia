@@ -26,3 +26,16 @@ Informação de alteração
 
 ## Git Flow
 Fluxo do Git
+
+## Branch
+Ramificações do código / versões paralelas
+
+- main / master
+- develop 
+- DOD Definitions of Done
+- versionamento 1.0.0
+
+- Criar uma branch develop
+- $ git branch
+- $ git checkout -b dev
+- cria uma cópia da main para branch dev
