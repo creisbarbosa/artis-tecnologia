@@ -248,9 +248,7 @@ select {
 footer {
 
 	display: flex;
-	float: right;
-
-	margin: 0;
+	margin: auto;
 	padding-top: 64px;
 	padding-bottom: 64px;
 	padding-left: 128px;
@@ -260,6 +258,12 @@ footer {
 	color: #8E8E8E;
 
 	border-top: solid .5px #ebebeb;
+}
+
+footer section{
+	display: flex;
+	width: 70%;
+	margin: auto;
 }
 
 footer div {

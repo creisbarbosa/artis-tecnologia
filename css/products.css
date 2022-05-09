@@ -14,7 +14,7 @@ html {
 }
 
 .short-text {
-    font-size: 12px;
+    font-size: 16px;
     padding: 16px 32px;
     background-color: #f1f1f1;
 }
@@ -30,6 +30,7 @@ html {
     width: 80%;
 }
 
+
 div .filtro {
     max-width: 31%;
 }
@@ -42,4 +43,35 @@ div .filtro {
 
 .filtro:hover {
     filter: grayscale(10%);
+}
+
+.sp{
+    color: #222222;
+    display: flex;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    margin-right: auto !important;
+
+}
+
+.sp p {
+    color: #222222;
+    width: 70%;
+    font-family: IBM Plex Sans;
+    font-weight: 400;
+    font-size: .9rem;
+    padding: 14px 0;
+}
+
+.download_button {
+    border: solid 2px rgba(255, 255, 255, .35);
+    font-weight: 600;
+    background-color: black;
+    padding: 8px 32px 8px 32px;
+    display: flex;
+    width: fit-content;
+    border-radius: 8px;
+
 }
